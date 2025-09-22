@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about the mission of Health Hub and the team behind it.">
+  <meta name="keywords" content="about us, mission, team, health hub">
+  <title>About Us - Health Hub</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-indigo-600">Health Hub</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-gray-600 hover:text-indigo-600 transition-colors">Home</a>
+        <a href="digital.html" class="text-gray-600 hover:text-indigo-600 transition-colors">Digital Products</a>
+        <a href="travel-tech.html" class="text-gray-600 hover:text-indigo-600 transition-colors">Travel & Tech</a>
+        <a href="about.html" class="text-gray-600 hover:text-indigo-600 transition-colors">About</a>
+      </div>
+      <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-indigo-600 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden bg-white py-4 text-center shadow-lg">
+      <a href="index.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">Home</a>
+      <a href="digital.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">Digital Products</a>
+      <a href="travel-tech.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">Travel & Tech</a>
+      <a href="about.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">About</a>
+    </div>
+  </header>
+
+  <section class="py-16 md:py-24 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl md:text-4xl font-bold text-center mb-8">Our Mission</h1>
+      <div class="max-w-3xl mx-auto text-lg text-gray-700 space-y-6">
+        <p>Welcome to Health Hub, your go-to resource for a healthier, happier life through digital wellness. Our mission is to provide a curated selection of the best digital products and insightful content to help you achieve your health and fitness goals.</p>
+        <p>We believe that technology, when used mindfully, can be a powerful tool for self-improvement. Whether you're looking for a new fitness app, a meditation guide, or a healthy eating plan, we're here to help you navigate the digital landscape and find products that truly make a difference.</p>
+        <p>This project is driven by a passion for health, technology, and empowering people to take control of their well-being. Thank you for being a part of our journey.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-12 text-center">
+    <div class="container mx-auto px-4">
+      <p>&copy; 2025 Health Hub. All rights reserved.</p>
+      <div class="mt-4 space-x-4 flex justify-center">
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

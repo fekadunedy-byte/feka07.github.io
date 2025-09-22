@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover the best digital products and insights for a healthier, happier life.">
+  <meta name="keywords" content="digital health, wellness, fitness app, meditation guide, healthy eating, health tech, affiliate marketing">
+  <meta property="og:title" content="Health Hub - Your Source for Digital Wellness">
+  <meta property="og:description" content="Discover the best digital products and insights for a healthier, happier life.">
+  <meta property="og:url" content="https://your-website.com">
+  <title>Health Hub - Empowering Your Digital Wellness Journey</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-indigo-600">Health Hub</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-gray-600 hover:text-indigo-600 transition-colors">Home</a>
+        <a href="digital.html" class="text-gray-600 hover:text-indigo-600 transition-colors">Digital Products</a>
+        <a href="travel-tech.html" class="text-gray-600 hover:text-indigo-600 transition-colors">Travel & Tech</a>
+        <a href="about.html" class="text-gray-600 hover:text-indigo-600 transition-colors">About</a>
+      </div>
+      <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-indigo-600 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden bg-white py-4 text-center shadow-lg">
+      <a href="index.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">Home</a>
+      <a href="digital.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">Digital Products</a>
+      <a href="travel-tech.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">Travel & Tech</a>
+      <a href="about.html" class="block py-2 px-4 text-gray-600 hover:bg-gray-100">About</a>
+    </div>
+  </header>
+
+  <section class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 md:py-32 text-center shadow-lg">
+    <div class="container mx-auto px-4 animate-fade-in">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Empower Your Digital Wellness Journey</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-90">Discover the best digital products and insights to improve your health, fitness, and overall well-being.</p>
+    </div>
+  </section>
+
+  <section id="products" class="py-16 md:py-24">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Featured Health Products</h2>
+      <div id="product-list" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <section id="blog" class="bg-gray-200 py-16 md:py-24">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Latest Articles & Insights</h2>
+      <div id="blog-list" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-800 text-white py-12 text-center">
+    <div class="container mx-auto px-4">
+      <p>&copy; 2025 Health Hub. All rights reserved.</p>
+      <div class="mt-4 space-x-4 flex justify-center">
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+        <a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
